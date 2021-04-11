@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>END-TERM</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <br>
+    <div id="covid">
+    <h1>CORONAVIRUS TRACKER</h1>
+    <br><br>
+    <form>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;Country: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="Enter Country name" id="cname" size="20" required><br><br>
+       
+        <label>Starting Date:&nbsp;</label>
+        <input type="date" placeholder="Enter Starting Date" id="sdate" required><br><br>
+
+        <label>Ending Date: &nbsp;</label>
+        <input type="date" placeholder="Enter Ending Date" id="edate" required><br><br>
+
+        <button class="btn btn-primary" onclick="showData()" id="submit_button">Submit</button>
+    </form>
+    <br>
+    <div id="res">
+        <h3>Confirmed Cases&nbsp;:&nbsp;<span id="confirmed"></span></h3>
+        <h3>Active Cases&nbsp;:&nbsp;<span id="active"></span></h3>
+        <h3>Death Cases<span id="death"></span></h3>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

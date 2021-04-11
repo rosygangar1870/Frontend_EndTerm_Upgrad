@@ -1,0 +1,57 @@
+#covid {
+  background-color: rgb(248, 247, 253);
+  border: 3px solid black;
+  text-align: center;
+  min-height: 93vh;
+  width: 35%;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+  opacity: 0.98;
+  /*
+  background-image: url(../image/img1.jpg);*/
+}
+
+h1 {
+  font-weight: bolder;
+  color: rgb(1, 5, 14);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+body {
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+label {
+  font-size: 25px;
+}
+#submit_button {
+  padding: 2px 18px;
+  font-size: 17px;
+}
+
+#res {
+  background-color: rgb(125, 149, 201);
+  color: white;
+  display: none;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 3px;
+  opacity: 8;
+  border-radius: 15px;
+}
